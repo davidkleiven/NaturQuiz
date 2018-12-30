@@ -24,6 +24,10 @@ public class Question extends Object{
     }
 
     public String imageName(){
-        return correct;
+        String imgName = new String(correct);
+        imgName = imgName.replace("æ", "ae");
+        imgName = imgName.replace("ø", "oe");
+        imgName = imgName.replace("å", "aa");
+        return imgName;
     }
 }
