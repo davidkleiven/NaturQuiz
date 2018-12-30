@@ -16,7 +16,7 @@
 
     <ImageView
         android:id="@+id/bird_picture"
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="200dip"
         android:src="@drawable/default_bird"
         android:layout_centerHorizontal="true"/>
