@@ -4,22 +4,21 @@ import java.util.List;
 import java.util.Arrays;
 
 public class Question extends Object{
-    String[] alternatives;
+    List<String> alternatives;
     String correct;
 
     // Assume that the first alternative is the correct one
-    public Question(String[] alt){
+    public Question(List<String> alt){
         alternatives = alt;
-        correct = new String(alternatives[0]);
+        correct = new String(alternatives.get(0));
     }
 
     public boolean isCorrect(String answer){
         return answer == correct;
     }
 
-    public String[] altInRandomOrder(){
-        List<String> strList = Arrays.asList(alternatives);
-        Collections.shuffle(strList);
+    public List<String> altInRandomOrder(){
+        Collections.shuffle(alternatives);
         return alternatives;
     }
 

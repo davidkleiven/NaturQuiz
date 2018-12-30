@@ -13,6 +13,7 @@ public class QuestionManager extends Object{
     Context mContext;
     String[] family_names;
     int numAlternatives = 5;
+    Question activeQuestion = null;
 
     
     public QuestionManager(Context context){
@@ -29,15 +30,22 @@ public class QuestionManager extends Object{
 
     private String[] membersInGroup(String group_name){
         String pkgName = mContext.getPackageName();
-        int resId = mContext.getResources().getIdentifier(group_name, "fugler", pkgName);
+        int resId = mContext.getResources().getIdentifier(group_name, "array", pkgName);
         return mContext.getResources().getStringArray(resId);
     }
+
 
     public Question getQuestion(){
         String famName = randomFamilyName();
         String[] members = membersInGroup(famName);
         List<String> strList = Arrays.asList(members);
         Collections.shuffle(strList);
-        return new Question(Arrays.copyOfRange(members, 0, numAlternatives));
+        activeQuestion = new Question(strList.subList(0, numAlternatives));
+        return activeQuestion;
+    }
+
+
+    public Question getActive(){
+        return activeQuestion;
     }
 }
