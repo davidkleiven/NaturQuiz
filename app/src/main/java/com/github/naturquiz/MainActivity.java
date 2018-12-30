@@ -5,6 +5,7 @@ import android.os.Bundle;
 import android.os.Handler;
 import android.widget.Button;
 import android.widget.ImageView;
+import android.widget.TextView;
 import android.view.View;
 
 import java.util.List;
@@ -13,6 +14,7 @@ import com.github.naturquiz.QuestionManager;
 
 public class MainActivity extends AppCompatActivity {
     QuestionManager q_manager;
+    Score score = new Score();
     Question activeQuestion = null;
     Button answerButtons[] = null;
     private boolean processing_answer = false;
@@ -80,14 +82,22 @@ public class MainActivity extends AppCompatActivity {
         Button button = (Button) v;
         String text = button.getText().toString();
 
-        if (q_manager.getActive().isCorrect(text)){
+        boolean correct = q_manager.getActive().isCorrect(text);
+        if (correct){
             button.setBackgroundColor(getResources().getColor(R.color.correctAnswer));
         }
         else{
             button.setBackgroundColor(getResources().getColor(R.color.wrongAnswer));
             getCorrectButton().setBackgroundColor(getResources().getColor(R.color.correctAnswer));
         }
+        score.update(correct);
+        updateScoreString();
         postNewQuestion();
+    }
+
+    public void updateScoreString(){
+        TextView tv = (TextView)findViewById(R.id.score);
+        tv.setText(score.get());
     }
 
     public void postNewQuestion(){
