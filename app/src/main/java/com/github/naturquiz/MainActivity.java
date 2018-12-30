@@ -2,6 +2,7 @@ package com.github.naturquiz;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.os.Handler;
 import android.widget.Button;
 import android.widget.ImageView;
 import android.view.View;
@@ -86,5 +87,16 @@ public class MainActivity extends AppCompatActivity {
             button.setBackgroundColor(getResources().getColor(R.color.wrongAnswer));
             getCorrectButton().setBackgroundColor(getResources().getColor(R.color.correctAnswer));
         }
+        postNewQuestion();
+    }
+
+    public void postNewQuestion(){
+        final Handler handler = new Handler();
+        handler.postDelayed(new Runnable() {
+            @Override
+            public void run() {
+                newQuestion();
+            }
+        }, 1000);
     }
 }
