@@ -1,18 +1,53 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
+    tools:context=".MainActivity"
+    android:orientation="vertical">
 
-    <TextView
+    <ImageView
+        android:id="@+id/bird_picture"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Hello World!"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        android:layout_height="200dip"
+        android:src="@drawable/default_bird"
+        android:layout_centerHorizontal="true"/>
 
-</android.support.constraint.ConstraintLayout>
+    <Button
+        android:id="@+id/alt1"
+        android:layout_width="fill_parent"
+        android:layout_height="50dip"
+        android:text="@string/alt1_text"
+        android:layout_below="@+id/bird_picture"/>
+
+    <Button
+        android:id="@+id/alt2"
+        android:layout_width="fill_parent"
+        android:layout_height="50dip"
+        android:text="@string/alt2_text"
+        android:layout_below="@+id/alt1"/>
+
+    <Button
+        android:id="@+id/alt3"
+        android:layout_width="fill_parent"
+        android:layout_height="50dip"
+        android:text="@string/alt3_text"
+        android:layout_below="@+id/alt2"/>
+
+    <Button
+        android:id="@+id/alt4"
+        android:layout_width="fill_parent"
+        android:layout_height="50dip"
+        android:text="@string/alt4_text"
+        android:layout_below="@+id/alt3"/> 
+
+    <Button
+        android:id="@+id/alt5"
+        android:layout_width="fill_parent"
+        android:layout_height="50dip"
+        android:text="@string/alt5_text"
+        android:layout_below="@+id/alt4"/> 
+
+
+</LinearLayout>

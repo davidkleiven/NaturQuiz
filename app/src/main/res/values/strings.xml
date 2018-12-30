@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">NaturQuiz</string>
+    <string name="alt1_text">Alternativ 1</string>
+    <string name="alt2_text">Alternativ 2</string>
+    <string name="alt3_text">Alternativ 3</string>
+    <string name="alt4_text">Alternativ 4</string>
+    <string name="alt5_text">Alternativ 5</string>
 </resources>
