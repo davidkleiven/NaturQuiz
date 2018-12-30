@@ -1,9 +1,13 @@
 package com.github.naturquiz;
 
 import android.support.v7.app.AppCompatActivity;
+
+import com.github.naturquiz.QuestionManager;
+
 import android.os.Bundle;
 
 public class MainActivity extends AppCompatActivity {
+    QuestionManager q_manager = new QuestionManager(this);
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
