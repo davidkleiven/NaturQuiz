@@ -14,7 +14,7 @@ public class Question extends Object{
     }
 
     public boolean isCorrect(String answer){
-        return answer == correct;
+        return answer.equals(correct);
     }
 
     public List<String> altInRandomOrder(){
@@ -24,6 +24,7 @@ public class Question extends Object{
 
     public String imageName(){
         String imgName = new String(correct);
+        imgName = imgName.toLowerCase();
         imgName = imgName.replace("æ", "ae");
         imgName = imgName.replace("ø", "oe");
         imgName = imgName.replace("å", "aa");

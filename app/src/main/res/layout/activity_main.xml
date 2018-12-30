@@ -19,35 +19,40 @@
         android:layout_width="fill_parent"
         android:layout_height="50dip"
         android:text="@string/alt1_text"
-        android:layout_below="@+id/bird_picture"/>
+        android:layout_below="@+id/bird_picture"
+        android:onClick="onClick"/>
 
     <Button
         android:id="@+id/alt2"
         android:layout_width="fill_parent"
         android:layout_height="50dip"
         android:text="@string/alt2_text"
-        android:layout_below="@+id/alt1"/>
+        android:layout_below="@+id/alt1"
+        android:onClick="onClick"/>
 
     <Button
         android:id="@+id/alt3"
         android:layout_width="fill_parent"
         android:layout_height="50dip"
         android:text="@string/alt3_text"
-        android:layout_below="@+id/alt2"/>
+        android:layout_below="@+id/alt2"
+        android:onClick="onClick"/>
 
     <Button
         android:id="@+id/alt4"
         android:layout_width="fill_parent"
         android:layout_height="50dip"
         android:text="@string/alt4_text"
-        android:layout_below="@+id/alt3"/> 
+        android:layout_below="@+id/alt3"
+        android:onClick="onClick"/> 
 
     <Button
         android:id="@+id/alt5"
         android:layout_width="fill_parent"
         android:layout_height="50dip"
         android:text="@string/alt5_text"
-        android:layout_below="@+id/alt4"/> 
+        android:layout_below="@+id/alt4"
+        android:onClick="onClick"/> 
 
 
 </LinearLayout>
