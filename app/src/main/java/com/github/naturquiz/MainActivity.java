@@ -7,11 +7,12 @@ import com.github.naturquiz.QuestionManager;
 import android.os.Bundle;
 
 public class MainActivity extends AppCompatActivity {
-    QuestionManager q_manager = new QuestionManager(this);
+    QuestionManager q_manager;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+        q_manager = new QuestionManager(this);
     }
 }
