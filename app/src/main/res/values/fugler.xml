@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="fuglefamilier">
+        <item>andefamilien</item>
+    </string-array>
+    <string-array name="andefamilien">
+        <item>Knoppsvane</item>
+        <item>Dvergsvane</item>
+        <item>Sangsvane</item>
+        <item>Sædgås</item>
+        <item>Kortnebbgås</item>
+        <item>Tundragås</item>
+        <item>Dverggås</item>
+        <item>Grågås</item>
+        <item>Kanadagås</item>
+        <item>Hvitkinngås</item>
+        <item>Ringgås</item>
+        <item>Røshalsgås</item>
+        <item>Niland</item>
+        <item>Rustand</item>
+        <item>Gravand</item>
+        <item>Mandarinand</item>
+        <item>Brunnakke</item>
+        <item>Amerikablesand</item>
+        <item>Snadderand</item>
+        <item>Krikkand</item>
+        <item>Amerikakrikkand</item>
+        <item>Stokkand</item>
+        <item>Rødfotand</item>
+        <item>Stjertand</item>
+        <item>Knekkand</item>
+        <item>Blåvingeand</item>
+        <item>Skjeand</item>
+        <item>Rødhodeand</item>
+        <item>Taffeland</item>
+        <item>Ringand</item>
+        <item>Hvitøyeand</item>
+        <item>Toppand</item>
+        <item>Bergand</item>
+        <item>Purpurhodeand</item>
+        <item>Ærfugl</item>
+        <item>Praktærfugl</item>
+        <item>Brilleærfugl</item>
+        <item>Stellerand</item>
+        <item>Harlekinand</item>
+        <item>Havelle</item>
+        <item>Svartand</item>
+        <item>Brilleand</item>
+        <item>Sjøorre</item>
+        <item>Knoppsjøorre</item>
+        <item>Islandsand</item>
+        <item>Kvinand</item>
+        <item>Lappfiskand</item>
+        <item>Siland</item>
+        <item>Laksand</item>
+        <item>Stivhaleand</item>
+    </string-array>
+</resources>
