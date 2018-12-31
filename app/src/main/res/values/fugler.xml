@@ -2,11 +2,9 @@
 <resources>
     <string-array name="fuglefamilier">
         <item>andefamilien</item>
+        <item>gaas</item>
     </string-array>
-    <string-array name="andefamilien">
-        <item>Knoppsvane</item>
-        <item>Dvergsvane</item>
-        <item>Sangsvane</item>
+    <string-array name="gaas">
         <item>Sædgås</item>
         <item>Kortnebbgås</item>
         <item>Tundragås</item>
@@ -16,6 +14,11 @@
         <item>Hvitkinngås</item>
         <item>Ringgås</item>
         <item>Røshalsgås</item>
+    </string-array>
+    <string-array name="andefamilien">
+        <item>Knoppsvane</item>
+        <item>Dvergsvane</item>
+        <item>Sangsvane</item>
         <item>Niland</item>
         <item>Rustand</item>
         <item>Gravand</item>
