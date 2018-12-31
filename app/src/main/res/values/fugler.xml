@@ -4,6 +4,8 @@
         <item>andefamilien</item>
         <item>gaas</item>
         <item>fasanfamilien</item>
+        <item>oppsamling</item>
+        <item>lappdykkerfamilien</item>
     </string-array>
     <string-array name="gaas">
         <item>Sædgås</item>
@@ -68,5 +70,23 @@
         <item>Storfugl</item>
         <item>Rapphøne</item>
         <item>Vaktel</item>
+    </string-array>
+
+    <string-array name="oppsamling">
+        <item>Smålom</item>
+        <item>Storlom</item>
+        <item>Islom</item>
+        <item>Gulnebblom</item>
+        <item>Svartbrynalbatross</item>
+        <item>Gulnesealbatross</item>
+    </string-array>
+
+    <string-array name="lappdykkerfamilien">
+        <item>Ringnebbdykker</item>
+        <item>Dvergdykker</item>
+        <item>Toppdykker</item>
+        <item>Gråstrupedykker</item>
+        <item>Horndykker</item>
+        <item>Svarthalsdykker</item>
     </string-array>
 </resources>
