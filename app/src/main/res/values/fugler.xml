@@ -83,6 +83,10 @@
         <item>Gulnesealbatross</item>
         <item>Storskarv</item>
         <item>Toppskarv</item>
+        <item>Svartstork</item>
+        <item>Stork</item>
+        <item>Bronseibis</item>
+        <item>Skjestork</item>
     </string-array>
 
     <string-array name="lappdykkerfamilien">
