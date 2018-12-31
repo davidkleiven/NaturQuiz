@@ -8,6 +8,7 @@
         <item>lappdykkerfamilien</item>
         <item>stormfuglfamilien</item>
         <item>hegrefamilien</item>
+        <item>haukefamilien</item>
     </string-array>
     <string-array name="gaas">
         <item>Sædgås</item>
@@ -119,5 +120,28 @@
         <item>Egretthegre</item>
         <item>Gråhegre</item>
         <item>Purpurhegre</item>
+    </string-array>
+
+    <string-array name="haukefamilien">
+        <item>Vepsevåk</item>
+        <item>Svartglente</item>
+        <item>Glente</item>
+        <item>Båndhavørn</item>
+        <item>Havørn</item>
+        <item>Åtselgribb</item>
+        <item>Slangeørn</item>
+        <item>Sivhauk</item>
+        <item>Myrhauk</item>
+        <item>Steppehauk</item>
+        <item>Enghauk</item>
+        <item>Hønsehauk</item>
+        <item>Spurvehauk</item>
+        <item>Musvåk</item>
+        <item>Ørnvåk</item>
+        <item>Fjellvåk</item>
+        <item>Storskrikørn</item>
+        <item>Steppeørn</item>
+        <item>Keiserørn</item>
+        <item>Kongeørn</item>
     </string-array>
 </resources>
