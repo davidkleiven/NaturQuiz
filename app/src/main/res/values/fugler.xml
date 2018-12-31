@@ -7,6 +7,7 @@
         <item>oppsamling</item>
         <item>lappdykkerfamilien</item>
         <item>stormfuglfamilien</item>
+        <item>hegrefamilien</item>
     </string-array>
     <string-array name="gaas">
         <item>Sædgås</item>
@@ -80,6 +81,8 @@
         <item>Gulnebblom</item>
         <item>Svartbrynalbatross</item>
         <item>Gulnesealbatross</item>
+        <item>Storskarv</item>
+        <item>Toppskarv</item>
     </string-array>
 
     <string-array name="lappdykkerfamilien">
@@ -100,5 +103,17 @@
         <item>Grålire</item>
         <item>Havlire</item>
         <item>Balearlire</item>
+    </string-array>
+
+    <string-array name="hegrefamilien">
+        <item>Rørdrum</item>
+        <item>Amerikarørdrum</item>
+        <item>Dvergrørdrum</item>
+        <item>Natthegre</item>
+        <item>Kuhegre</item>
+        <item>Silkehegre</item>
+        <item>Egretthegre</item>
+        <item>Gråhegre</item>
+        <item>Purpurhegre</item>
     </string-array>
 </resources>
