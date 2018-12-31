@@ -3,6 +3,7 @@
     <string-array name="fuglefamilier">
         <item>andefamilien</item>
         <item>gaas</item>
+        <item>fasanfamilien</item>
     </string-array>
     <string-array name="gaas">
         <item>Sædgås</item>
@@ -57,5 +58,15 @@
         <item>Siland</item>
         <item>Laksand</item>
         <item>Stivhaleand</item>
+    </string-array>
+
+    <string-array name="fasanfamilien">
+        <item>Jerpe</item>
+        <item>Lirype</item>
+        <item>Fjellrype</item>
+        <item>Orrfugl</item>
+        <item>Storfugl</item>
+        <item>Rapphøne</item>
+        <item>Vaktel</item>
     </string-array>
 </resources>
