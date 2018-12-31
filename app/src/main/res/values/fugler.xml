@@ -6,6 +6,7 @@
         <item>fasanfamilien</item>
         <item>oppsamling</item>
         <item>lappdykkerfamilien</item>
+        <item>stormfuglfamilien</item>
     </string-array>
     <string-array name="gaas">
         <item>Sædgås</item>
@@ -88,5 +89,16 @@
         <item>Gråstrupedykker</item>
         <item>Horndykker</item>
         <item>Svarthalsdykker</item>
+    </string-array>
+
+    <string-array name="stormfuglfamilien">
+        <item>Havhest</item>
+        <item>Flekkpetrell</item>
+        <item>Silkepetrell</item>
+        <item>Gulnebblire</item>
+        <item>Storlire</item>
+        <item>Grålire</item>
+        <item>Havlire</item>
+        <item>Balearlire</item>
     </string-array>
 </resources>
