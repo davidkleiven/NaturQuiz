@@ -19,4 +19,9 @@ class Score extends Object{
         }
         return numCorrect + " av " + numTotal + " (" + percent + " %)";
     }
+
+    public void reset(){
+        numCorrect = 0;
+        numTotal = 0;
+    }
 }
