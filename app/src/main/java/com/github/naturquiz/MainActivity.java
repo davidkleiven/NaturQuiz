@@ -82,8 +82,17 @@ public class MainActivity extends AppCompatActivity {
         if (num_questions_remaining > 0){
             return;
         }
+        // TODO: Ask user if new game should be started
+        // TODO: Save result in DB and give position 
+        // of current round
+        reset_game();
     }
-    
+
+    private void reset_game(){
+        num_questions_remaining = 100;
+        score.reset();
+    }
+
     public void onClick(View v){
         if (processing_answer){
             return;
