@@ -18,6 +18,7 @@ public class MainActivity extends AppCompatActivity {
     Question activeQuestion = null;
     Button answerButtons[] = null;
     private boolean processing_answer = false;
+    private int num_questions_remaining = 100;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -56,6 +57,8 @@ public class MainActivity extends AppCompatActivity {
             img.setImageResource(R.drawable.default_bird);
         }
         processing_answer = false;
+        num_questions_remaining -= 1;
+        process_game_finished();
     }
 
     private void resetButtonColor(){
@@ -74,6 +77,13 @@ public class MainActivity extends AppCompatActivity {
         }
         return null;
     }
+
+    private void process_game_finished(){
+        if (num_questions_remaining > 0){
+            return;
+        }
+    }
+    
     public void onClick(View v){
         if (processing_answer){
             return;
@@ -97,7 +107,7 @@ public class MainActivity extends AppCompatActivity {
 
     public void updateScoreString(){
         TextView tv = (TextView)findViewById(R.id.score);
-        tv.setText(score.get());
+        tv.setText(score.get() + " Spm. igjen: " + num_questions_remaining);
     }
 
     public void postNewQuestion(){
